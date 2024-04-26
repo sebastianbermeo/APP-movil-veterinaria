@@ -1,0 +1,67 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+  <ion-buttons slot="start">
+
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Atrás</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title class="custom-title">SPA MIMOS Y PATITAS</ion-title>
+  </ion-toolbar>
+
+  
+
+  <div id="container">
+  <img src="https://th.bing.com/th/id/R.a08f7fe1e0fd95baec1ee88fd9c892e7?rik=xtYVc6iomY0I3A&riu=http%3a%2f%2fwww.cvcondeduque.es%2fwp-content%2fuploads%2f2016%2f10%2fweb.png&ehk=GHGxMZEo9gIdlJvNqyzMfeA6upWbvIARLzb9TPtN798%3d&risl=&pid=ImgRaw&r=0" alt="Mi Imagen">
+  <ion-input
+  fill="solid"
+  label="Nombre del propietario"
+  labelPlacement="floating"
+  ngModel
+  email
+></ion-input>
+<ion-input
+  fill="solid"
+  label="Nombre de la mascota"
+  labelPlacement="floating"
+  ngModel
+  email
+   ></ion-input>
+
+<ion-input
+  fill="solid"
+  label="Raza"
+  labelPlacement="floating"
+  ngModel
+  email
+   ></ion-input>
+
+<ion-input
+type="number"
+  fill="solid"
+  label="Edad de la mascota"
+  labelPlacement="floating"
+  ngModel
+  email
+   ></ion-input>
+
+<ion-input
+  fill="solid"
+  label="Escriba el servicio que desea"
+  labelPlacement="floating"
+  ngModel
+  email
+   ></ion-input>
+
+<h2>Seleciona tu fecha y hora</h2>
+<ion-datetime></ion-datetime>
+   
+   
+
+    <ion-button expand="block" color="danger" shape="round" routerLink="/login">Agendar cita</ion-button>
+  </div>
+</ion-content>

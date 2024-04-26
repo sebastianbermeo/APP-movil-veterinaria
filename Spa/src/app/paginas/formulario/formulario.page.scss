@@ -1,0 +1,26 @@
+#container {
+  text-align: center;
+  margin: 50px auto; /* Ajusta el valor según sea necesario */
+  padding: 20px;
+  max-width: 400px; /* Opcional: Limita el ancho máximo del contenedor */
+}
+
+ion-input {
+  margin-bottom: 20px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
+
+// styles.scss (o cualquier otro archivo .scss)
+
+// Cambia el color de fondo
+ion-content {
+--background: #ab93c9; // Cambia el color a tu preferencia
+}
+
+// Centra los títulos
+ion-title.custom-title {
+text-align: center;
+}

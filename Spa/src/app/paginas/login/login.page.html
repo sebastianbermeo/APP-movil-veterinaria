@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title class="custom-title">SPA MIMOS Y PATITAS</ion-title>
+  </ion-toolbar>
+
+  
+
+  <div id="container">
+  <img alt="Morat" src="https://cdn.pixabay.com/photo/2018/07/16/15/31/dog-3542195_960_720.png" />
+    <ion-input
+      type="email"
+      fill="solid"
+      label="Correo electrónico"
+      labelPlacement="floating"
+      ngModel
+      email
+    ></ion-input>
+    <ion-input
+      type="password"
+      fill="solid"
+      label="Contraseña"
+      labelPlacement="floating"
+      ngModel
+      email
+    ></ion-input>
+    <ion-checkbox>Acepto los términos y condiciones</ion-checkbox>
+
+    <ion-button expand="block" color="tertiary" shape="round" routerLink="/servicios">Enviar</ion-button>
+  </div>
+</ion-content>
